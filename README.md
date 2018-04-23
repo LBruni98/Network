@@ -12,9 +12,17 @@ P2P networks are easy to understand and set up. Any computer can be used and a s
 However, because of the way that Peer-to-peer works, there can be some drawbacks. Each computer fulfils more than one role, be it printing or file sharing and can increase the load. As the computers have to be maintained themselves, every user must ensure that antivirus and malware protection software are installed on each computer retrospectively, otherwise should a virus infect one machine, it will quickly be transferred across any other computer connected to this network.
 
 #### Client-server
-Client network is a model that involves a client and a server, where the client requests a service from the server.
+Client network is a model that involves a client and a server, where the client requests a service from the server. The request that the client makes is to connect to a website over a local area network, to which a secure connection to the server. The connection is then terminated once the server has fulfilled the client’s request. Internet browsers are basically a client program that when clicked on a link to a web page, has actually requested a service from the server.
+
+All resources and data are controlled by the server so that a program or an unauthorized client can’t damage the system, which better facilitates the task of uploading data and other such resources. Also noting that because of the centralization, backups and security is handled by the server, without the user having to do it themselves. Roles can be distributed to several computers and that servers can be replaced or fixed without any of the users being interrupted.
+
+There can be some drawbacks to this network model; the server, for one, is expensive to purchase and install, along with requiring professional IT specialists to handle the maintenance and technical details of the network. Unlike the P2P server, congestion may be likely to happen if the server takes in too many requests, leading to overload of servers.
 
 #### Cloud
+Cloud network or cloud based networking is a network model that uses a third party provider for accessing resources via Wide Area Networking. Cloud networking uses cloud computing, where centralized computing resources are shared amongst clients, but the network is also shared as well. It works the same way as standard networking but it’s component, devices and operations are all in the cloud.
+
+
+
 #### Cluster
 #### Centralised
 #### Virtualised
@@ -25,6 +33,12 @@ Client network is a model that involves a client and a server, where the client 
 
 #### IEEE
 
-#### Issues of	Routed protocols
+#### Issues of Routed Protocols
 
-#### Services and network applications
+#### Services and Network Applications
+
+### The Impact of Networking Topology, Communication and Bandwidth
+
+### Operating Principles
+
+### Workstation Hardware
