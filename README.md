@@ -24,6 +24,10 @@ Cloud network or cloud based networking is a network model that uses a third par
 The main benefit of cloud computing is that you can connect anywhere at any time regardless of device or place. A user can connect via a router that goes directly to the cloud server, so the user is not bound to a room. Cloud networking shares its characteristics with cloud computing, meaning that the benefits of cloud computing are also present with networking. For instance, you can access, edit and share documents at any time with people who are also connected to the network, allowing for good teamwork workflow without having to be in the same office.
 
 #### Cluster
+A computer cluster consists of a single unit made up of multiple computers linked through a LAN and the joint computers act as if they were a single powerful machine. They have a node set to each cluster to perform the same task, so that they can perform that task at a faster rate with a higher joint processing speed.
+
+The obvious benefit that Cluster networking offers is the processing speed, where the computers working together provide unified processing, producing the fastest amount overall. If a single component in the cluster fails, other computers can continue to provide the processing, backing up the failed component. The computer cluster is made up of different LAN topologies and these networks create a highly efficient and effective mainframe that prevents any bottlenecking.
+
 #### Centralised
 #### Virtualised
 
