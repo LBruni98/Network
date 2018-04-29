@@ -28,7 +28,7 @@ A computer cluster consists of a single unit made up of multiple computers linke
 
 The obvious benefit that Cluster networking offers is the processing speed, where the computers working together provide unified processing, producing the fastest amount overall. If a single component in the cluster fails, other computers can continue to provide the processing, backing up the failed component. The computer cluster is made up of different LAN topologies and these networks create a highly efficient and effective mainframe that prevents any bottlenecking.
 
-#### Centralised
+#### Centralized
 Centralized networking is a form of networking where users connect to a central server and this server manages all of the computing resources, administration and user management. The server in turn delivers application logic, processing and the computer resources to the connected users. Each machine involved in this network generally are considered “thin clients”, computers with a display, basic input devices and a thin CPU with networking capabilities, so the main server provides the client with computing resources and other high-end faciliites.
 
 In regards to the benefits of this type of networking, it helps in reducing cost as the main server mainly has the high-end output; it doesn’t emphasize on hardware and the client PCs, so any thin client can be used with it.
@@ -41,7 +41,6 @@ A virtualized network is virtual; nothing physical is used with this type of net
 ### Conceptual Models
 
 ### Standards and Protocols
-
 #### IEEE
 
 #### Issues of Routed Protocols
@@ -49,7 +48,15 @@ A virtualized network is virtual; nothing physical is used with this type of net
 #### Services and Network Applications
 
 ### The Impact of Networking Topology, Communication and Bandwidth
+#### Topologies
+#### Communication
 
 ### Operating Principles
+#### Networking devices
+#### Server types
 
 ### Workstation Hardware
+#### Networking Software
+#### Comparison of network and Cabling
+#### Local Workstation Architecture
+##### System Bus
