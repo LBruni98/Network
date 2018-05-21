@@ -46,23 +46,19 @@ The Transmission Control Protocol/Internet Protocol model, shortened to TCP/IP i
 
 It uses the client/server model of communication where a client is provided a service from another computer in the same network. The model is made up of different protocols and divided into four layers:
 
-|Layer No.|Type|Protocols|Description|
-|---------|----|---------|-----------|
-|4|Application|HTTP, FTP, SMTP, DNS, etc.|The application layer is responsible for providing network services to applications. High-level protocols are included within the application layer, such as Domain Naming System (DNS), Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), etc.|
-|3|Transport|TCP, UDP|The Transport Layer maintains the end-to-end communications within the network. The communications between the hosts are handled within this layer and flow control, multiplexing and reliability are maintained as well by the layer. Two protocols are used within this layer; TCP, for providing error control and successful delivery of the data, and UDP, though only used for less extensive control features.|
-|2|Internet|IP|The internet layer, or network layer, packs the data into data packets and routes it to the correct device on the destination network. These packets then form the IP, containing the source and destination address used to transmit the IPs across networks.|
-|1|Link|Ethernet, Token Ring, Other Link-Layer Protocols|The lowest layer is known as the Network Access Layer, that combines the data link and physical layers from the OSI model. It provides a means for the data to be delivered to other devices on a network and defines how the network should transmit an IP. This layer has to understand the details of the underlying network before it can format the data being transmitted.|
+* Application - The application layer is responsible for providing network services to applications. High-level protocols are included within the application layer, such as Domain Naming System (DNS), Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), etc.
+* Transport - This layer maintains the end-to-end communications within the network. The communications between the hosts are handled within this layer and flow control, multiplexing and reliability are maintained as well by the layer. Two protocols are used within this layer; TCP, for providing error control and successful delivery of the data, and UDP, though only used for less extensive control features.
+* Internet - The internet layer, or network layer, packs the data into data packets and routes it to the correct device on the destination network. These packets then form the IP, containing the source and destination address used to transmit the IPs across networks.
+* Network Access - The lowest layer is known as the Network Access Layer, that combines the data link and physical layers from the OSI model. It provides a means for the data to be delivered to other devices on a network and defines how the network should transmit an IP. This layer has to understand the details of the underlying network before it can format the data being transmitted.
 
 ### OSI Model
-|Layer No.|Type|Protocols|Description|
-|---------|----|---------|-----------|
-|7|Application|HTTP, FTP, SMTP, DNS, etc.|The application layer in the OSI model is a means for applications to receive network services, basically communicating the services to them such as file transfers and e-mail. Numerous protocols are used within this layer, such as Hypertext Transfer Protocol for web based languages transferred across the network and mail services by the SMPP protocol for email services.|
-|6|Presentation|ASCII, EBCDIC, TIFF, GIF, PICT, JPEG, MPEG, MIDI|The presentation layer is used for interpreting the data and transformed that the application layer can use it. Many file types are represented by the application and can be converted, encrypted, decrypted or compressed.|
-|5|Session|SAP, NFS, NetBIOS|The session layer establishes connections between applications and can set up, coordinate and terminate the conversations that happens between them. The protocols used are Transmission Control Protocol (TCP) and User Datagram Protocol (UDP), commonly provided within most applications.|
-|4|Transport|TCP, SPX, IPX, UDP|This layer provides the transferal of data between hosts or end systems and is responsible for error recovery and flow control. TCP and USP protocols, used in the session layer, provide these services through the internet for most applications.|
-|3|Network|IPv4, IPv6|The network layer handles the addressing and routing of data, where it is sent in the correct direction, selecting the appropriate routes and forwarding the data to the transport layer. The protocols that map to the OSI network include the IP protocol from the TCP/IP model, both IPv4 and IPv6, as well as Interwork Packet Exchange (IPX).|
-|2|Data Link|Switches|The data link layer is responsible for encoding the data prior to the transmission and decoding the data back into the bits at the destination, mainly handling the data transfer out of a physical link. The layer divides itself into two sub-layers; Media Access Control, how the computer gains access to the data and the permission to transfer said data, and Logical Link Control, controlling the frame synchronization, flow control and error checking.|
-|1|Physical|Hubs, Cable, NICS|The bottommost layer is the physical layer that conveys the bit stream across the network. This is done via electrical impulse, light or a radio signal. A variety of devices and mediums are covered, through cables, cards and other ports.|
+* Application - The application layer in the OSI model is a means for applications to receive network services, basically communicating the services to them such as file transfers and e-mail. Numerous protocols are used within this layer, such as Hypertext Transfer Protocol for web based languages transferred across the network and mail services by the SMPP protocol for email services.
+* Presentation - The presentation layer is used for interpreting the data and transformed that the application layer can use it. Many file types are represented by the application and can be converted, encrypted, decrypted or compressed.
+* Session - The session layer establishes connections between applications and can set up, coordinate and terminate the conversations that happens between them. The protocols used are Transmission Control Protocol (TCP) and User Datagram Protocol (UDP), commonly provided within most applications.
+* Transport - This layer provides the transferal of data between hosts or end systems and is responsible for error recovery and flow control. TCP and USP protocols, used in the session layer, provide these services through the internet for most applications.
+* Network - The network layer handles the addressing and routing of data, where it is sent in the correct direction, selecting the appropriate routes and forwarding the data to the transport layer. The protocols that map to the OSI network include the IP protocol from the TCP/IP model, both IPv4 and IPv6, as well as Interwork Packet Exchange (IPX).
+* Data Link - The data link layer is responsible for encoding the data prior to the transmission and decoding the data back into the bits at the destination, mainly handling the data transfer out of a physical link. The layer divides itself into two sub-layers; Media Access Control, how the computer gains access to the data and the permission to transfer said data, and Logical Link Control, controlling the frame synchronization, flow control and error checking.
+* Physical - The bottommost layer is the physical layer that conveys the bit stream across the network. This is done via electrical impulse, light or a radio signal. A variety of devices and mediums are covered, through cables, cards and other ports.
 
 ### Differences between the two models
 |TCP/IP|OSI|
@@ -111,6 +107,8 @@ It uses the client/server model of communication where a client is provided a se
 
 ## Network Design
 ### Architecture
+The requirements for the network were for there to be two LANs; both LANs having 3 PCs, a server and a router. Pre-configured IP addresses were to be assigned to the PCs, servers and router for recognizing the devices. Further Requirements were to expand the network to be a Wide Area Network (WAN) where the PCs can communicate from the adjacent networks, as well as adding network printing and wireless access.
+
 The design for the network is a WAN, consisting of two local networks, each with three PCs, a server and a router, along with two extras being a printer and access point. The LANs are designed within the Star topology, where the nodes are connected individually to a central point, this being the switch where all the traffic originates. The two LANs can communicate via a router as a gateway in both networks. An access point was included for connecting to wireless devices, hence the printer placed in both LANs.
 
 ![Layout](https://github.com/LBruni98/Networking/blob/master/WAN%20Architecture.jpg)
@@ -141,9 +139,10 @@ Router IP:
 * 192.168.10.1
 
 ### Implemented System
-
 ![Completed System](https://github.com/LBruni98/Networking/blob/master/Complete%20Network.PNG)
 
 ### Testing
+![Test](https://github.com/LBruni98/Networking/blob/master/Network%20Testing.PNG)
+
 #### Analysing Results
 ### Evaluation
