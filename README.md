@@ -108,3 +108,34 @@ It uses the client/server model of communication where a client is provided a se
 ### Comparison of network and Cabling
 ### Local Workstation Architecture
 #### System Bus
+
+## Network Design
+### Architecture
+The design for the network is a WAN, consisting of two local networks, each with three PCs, a server and a router, along with two extras being a printer and access point. The LANs are designed within the Star topology, where the nodes are connected individually to a central point, this being the switch
+
+![Layout](https://github.com/LBruni98/Networking/blob/master/WAN%20Architecture.jpg)
+
+#### Set Configurations
+##### Network 1 (Simpsons)
+PC IPs:
+* 192.168.1.100
+* 192.168.1.101
+* 192.168.1.102
+
+Server IP:
+* 192.168.1.10
+
+Router IP:
+* 192.168.1.1
+
+##### Network 2 (Quahog)
+PC IPs:
+* 192.168.10.100
+* 192.168.10.101
+* 192.168.10.102
+
+Server IP:
+* 192.168.10.10
+
+Router IP:
+* 192.168.10.1
