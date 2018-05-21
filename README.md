@@ -111,7 +111,7 @@ It uses the client/server model of communication where a client is provided a se
 
 ## Network Design
 ### Architecture
-The design for the network is a WAN, consisting of two local networks, each with three PCs, a server and a router, along with two extras being a printer and access point. The LANs are designed within the Star topology, where the nodes are connected individually to a central point, this being the switch
+The design for the network is a WAN, consisting of two local networks, each with three PCs, a server and a router, along with two extras being a printer and access point. The LANs are designed within the Star topology, where the nodes are connected individually to a central point, this being the switch where all the traffic originates. The two LANs can communicate via a router as a gateway in both networks. An access point was included for connecting to wireless devices, hence the printer placed in both LANs.
 
 ![Layout](https://github.com/LBruni98/Networking/blob/master/WAN%20Architecture.jpg)
 
