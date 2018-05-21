@@ -148,12 +148,11 @@ The Star Topology was used because of performance and that it gets to the destin
 Copper Straight through was used as the standard for Ethernet connection between ports, so it was the most convenient in terms of choice. This was chosen over fibre optic because of the cost effectiveness of the connection, despite the efficiency of fibre, also with the network being used for a small network, the connections are effective. A Serial DTE connection was used for the connection of both routers to provide a WAN connection, where there is a serial port on said routers. The DTE connection was chosen over the DCE because of the device types used.
 
 ### Testing
-![Test](https://github.com/LBruni98/Networking/blob/master/Network%20Test.PNG)
-
 The plan to test the network is to build the network and test it alongside development, to ensure quicker and orderly development as well as clear testing.
 
-### User Feedback
+![Test](https://github.com/LBruni98/Networking/blob/master/Network%20Test.PNG)
 
+### User Feedback
 |Name|Feedback|
 |----|--------|
 |Mark|The networks work well and can connect within their own networks. There should be a DNS server that allows for the PCs to be recorded via names and to be able to ping between one another through both networks.|
