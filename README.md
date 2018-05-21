@@ -55,6 +55,7 @@ It uses the client/server model of communication where a client is provided a se
 
 ### OSI Model
 |Layer No.|Type|Protocols|Description|
+|---------|----|---------|-----------|
 |7|Application|HTTP, FTP, SMTP, DNS, etc.|The application layer in the OSI model is a means for applications to receive network services, basically communicating the services to them such as file transfers and e-mail. Numerous protocols are used within this layer, such as Hypertext Transfer Protocol for web based languages transferred across the network and mail services by the SMPP protocol for email services.|
 |6|Presentation|ASCII, EBCDIC, TIFF, GIF, PICT, JPEG, MPEG, MIDI|The presentation layer is used for interpreting the data and transformed that the application layer can use it. Many file types are represented by the application and can be converted, encrypted, decrypted or compressed.|
 |5|Session|SAP, NFS, NetBIOS|The session layer establishes connections between applications and can set up, coordinate and terminate the conversations that happens between them. The protocols used are Transmission Control Protocol (TCP) and User Datagram Protocol (UDP), commonly provided within most applications.|
