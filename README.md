@@ -138,11 +138,30 @@ Server IP:
 Router IP:
 * 192.168.10.1
 
-### Implemented System
+### Implemented System and Justification
 ![Completed System](https://github.com/LBruni98/Networking/blob/master/Complete%20Network.PNG)
+
+This was the system that was built to match the requirements given. The system implemented with both the main and optional requirements that made up the system.
+
+The Star Topology was used because of performance and that it gets to the destination without going through all the devices on the network; at most being 3 to 4 devices and around 2 to 3 links and with a switch acting as the main hub, it allows data to be sent to the destination without any additional copies of the same data. This topology is also simplistic, allowing me to easily connect different nodes to the system with the rest of the network being affected, hence the access point and printer being added while the network was active.
+
+Copper Straight through was used as the standard for Ethernet connection between ports, so it was the most convenient in terms of choice. This was chosen over fibre optic because of the cost effectiveness of the connection, despite the efficiency of fibre, also with the network being used for a small network, the connections are effective. A Serial DTE connection was used for the connection of both routers to provide a WAN connection, where there is a serial port on said routers. The DTE connection was chosen over the DCE because of the device types used.
 
 ### Testing
 ![Test](https://github.com/LBruni98/Networking/blob/master/Network%20Test.PNG)
 
+The plan to test the network is to build the network and test it alongside development, to ensure quicker and orderly development as well as clear testing.
+
+### User Feedback
+
+|Name|Feedback|
+|----|--------|
+|Mark|The networks work well and can connect within their own networks. There should be a DNS server that allows for the PCs to be recorded via names and to be able to ping between one another through both networks.|
+|Matthew|The design is ordered and easy to comprehend. The Star topology helps the data transmit fast and routes to the correct PC. The only improvement would be to configure a wireless access point to be able to effectively use the printer.|
+
 #### Analysing Results
+From the testing carried out prior, most of the network features worked perfectly and performed to the expected results. There was only one failure throughout the whole testing phase, which was done because of the lack of gateways and effective pinging.
+
+The LAN networks worked correctly; the first was set up by focusing on the requirements and the second was copying the first network but changing names and the addresses to function. Both networks connected and worked flawlessly. The WAN connection through the routers was successful and allowed for the two Local networks to become a Wide Area Network. However, when ping the computers across both networks, unlike pinging locally, the connection timed out, so to ensure the computers connected across, the gateway IP was assigned to all PCs and Servers and a DNS server was set up. This allowed for computers across the WAN to communicate effectively and without interruption. The optional specifications were carried out and tested to completion where both passed. The printer connected successfully to the network and so did the access point, which can be used to connect to and function the printer.
+
 ### Evaluation
