@@ -140,6 +140,10 @@ Server IP:
 Router IP:
 * 192.168.10.1
 
+### Implemented System
+
+![Completed System](https://github.com/LBruni98/Networking/blob/master/Complete%20Network.PNG)
+
 ### Testing
 #### Analysing Results
 ### Evaluation
