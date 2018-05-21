@@ -142,7 +142,7 @@ Router IP:
 ![Completed System](https://github.com/LBruni98/Networking/blob/master/Complete%20Network.PNG)
 
 ### Testing
-![Test](https://github.com/LBruni98/Networking/blob/master/Network%20Testing.PNG)
+![Test](https://github.com/LBruni98/Networking/blob/master/Network%20Test.PNG)
 
 #### Analysing Results
 ### Evaluation
