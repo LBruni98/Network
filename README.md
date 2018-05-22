@@ -63,6 +63,15 @@ It uses the client/server model of communication where a client is provided a se
 ### Differences between the two models
 |TCP/IP|OSI|
 |------|---|
+|The TCP/IP model has 4 layers.|The OSI model has 7 layers.|
+|The model follows a horizontal approach.|The model follows a vertical approach.|
+|TCP/IP depends on protocols.|OSI doesn't depend on protocols.|
+|TCP/IP is more lenient in terms of boundaries.|The OSI model has strict boundaries.|
+|TCP/IP only supports connectionless communication stemming from the network layer.|OSI can support both connectionless and connection-oriented communication in the network layer.|
+|The model doesn’t clearly differentiate between services, interfaces and protocols.|There is a clear distinction between the services, interfaces and protocols.|
+|TCP/IP doesn’t fit any protocol stack.|OSI has a problem with protocol filtering into a model.|
+|No separate session and presentation layer. The characteristics are provided by the application and transport layer respectively.|Separate presentation and session layer.|
+
 ## Standards and Protocols
 ### IEEE
 
