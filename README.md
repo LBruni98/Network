@@ -73,8 +73,18 @@ It uses the client/server model of communication where a client is provided a se
 |No separate session and presentation layer. The characteristics are provided by the application and transport layer respectively.|Separate presentation and session layer.|
 
 ## Standards and Protocols
-### IEEE
+### IEEE Standards
+#### IEEE 802.3
+IEEE 802.3 is the standard for Ethernet. The standard specifies the physical media and the working characteristics of the Ethernet. The standard also specifies the media that supports the standard, which are coaxial of both 185 and 500 meters, optic fibre, twisted pair telephone and multi-channel coaxial with a maximum length of 3,600. As only the Ethernet signals are carried on the medium, the Ethernet is designated ‘BASE’, meaning Baseband Signalling and designated 10BASE as the standard refers to the transmission speed of 10 Mbps.
 
+#### IEEE 802.7
+IEEE 802.7 identifies recommended broadband LAN practices. What is specified with the standard is the design, installation and the test parameters for the broadband cable technologies within the network.
+
+#### IEEE 802.8
+IEEE 802.8 is a standard for fibre optic in a LAN that is used in token passing computer networks. It was devised by the Fiber Optic Technical Advisory Group and essentially gives the recommendation for configuration and testing of fibre optic Local and Metropolitan Area Networks.
+
+#### IEEE 802.11
+IEEE 802.11 is a set of standards defining communication in wireless LANs, mainly a set of guidelines for implementing Wi-Fi. The standard is made up of numerous amendments, these being .11a, .11b, .11g and .11n which state the different frequency bands used.
 
 ### Issues of Routed Protocols
 
