@@ -139,6 +139,7 @@ Router IP:
 * 192.168.10.1
 
 ### Implemented System and Justification
+![Complete](https://github.com/LBruni98/Networking/blob/master/Complete%20WAN%20Network.PNG)
 
 This was the system that was built to match the requirements given. The system implemented with both the main and optional requirements that made up the system.
 
