@@ -109,6 +109,7 @@ Secure Sockets Layer, or SSL, is the standard in security technology for creatin
 
 ## The Impact of Networking Topology, Communication and Bandwidth
 ### Topologies
+Logical Topologies are concepts, defining the architecture of the communication of the nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. The topology is mainly defining how the signals act on the network media
 ### Communication
 
 ## Operating Principles
