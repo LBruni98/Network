@@ -139,7 +139,6 @@ Router IP:
 * 192.168.10.1
 
 ### Implemented System and Justification
-![Completed System](https://github.com/LBruni98/Networking/blob/master/Complete%20Network.PNG)
 
 This was the system that was built to match the requirements given. The system implemented with both the main and optional requirements that made up the system.
 
@@ -164,3 +163,4 @@ From the testing carried out prior, most of the network features worked perfectl
 The LAN networks worked correctly; the first was set up by focusing on the requirements and the second was copying the first network but changing names and the addresses to function. Both networks connected and worked flawlessly. The WAN connection through the routers was successful and allowed for the two Local networks to become a Wide Area Network. However, when ping the computers across both networks, unlike pinging locally, the connection timed out, so to ensure the computers connected across, the gateway IP was assigned to all PCs and Servers and a DNS server was set up. This allowed for computers across the WAN to communicate effectively and without interruption. The optional specifications were carried out and tested to completion where both passed. The printer connected successfully to the network and so did the access point, which can be used to connect to and function the printer.
 
 ### Evaluation
+The network 
