@@ -86,9 +86,26 @@ IEEE 802.8 is a standard for fibre optic in a LAN that is used in token passing 
 #### IEEE 802.11
 IEEE 802.11 is a set of standards defining communication in wireless LANs, mainly a set of guidelines for implementing Wi-Fi. The standard is made up of numerous amendments, these being .11a, .11b, .11g and .11n which state the different frequency bands used.
 
-### Issues of Routed Protocols
+### Routed Protocols
+Routed Protocols is a protocol where data is routed from one network to another. These protocols use an addressing system that can address a particular network and host. There are different types of routed protocols, but the common being the IP address. The reason for IP being a more valued type of routed protocol is because of the fact that the rest is vanishing due to different issues.
+
+IPv4 has started running out of addresses due to the population of the world and the devices being manufactured, meaning that there is not enough IPv4 addresses. IPv6 is the newer solution where there is a considerable amount of addresses, with more than IPv4.
 
 ### Services and Network Applications
+#### FTP
+File Transfer Protocol, or FTP, is an internet protocol for transmitting files between computers over TCP/IP. It relies on two communication channels between client and the server and here a client can upload, download, delete or edit files on a server. The use however, would need to log on to the FTP server, but some servers can be accessed without having to login.
+
+#### HTTP
+Hypertext Transfer Protocol, or HTTP, is the protocol used by the World Wide Web. This protocol defines the actions that Web servers or browsers should take in from the user’s commands and how messages are transmitted and formatted. HTTP is used to help send the user to the webpage and to provide the user with a visual representation of the webpage, handling with the display and format.
+
+#### SMTP
+Simple Mail Transfer Protocol, or SMTP, is a protocol used for sending off email messages between servers. A majority of email servers use this protocol to send messages from one to another, where it can be retrieved via a client.
+
+#### POP3
+POP, known as Post Office Protocol, is a protocol in which email clients receive email. The most recent version is POP3 in which the email is held for the user by the internet server and once the mail is downloaded, it can be deleted, though it can still be saved for a period of time.
+
+#### SSL
+Secure Sockets Layer, or SSL, is the standard in security technology for creating an encrypted link between the web server and browser. It ensures that more personal information is transmitted securely, such as credit card info and login credentials, which is why it is used by most shopping websites.
 
 ## The Impact of Networking Topology, Communication and Bandwidth
 ### Topologies
