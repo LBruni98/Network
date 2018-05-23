@@ -168,7 +168,39 @@ A web server delivers the users content or services over the internet. Once a re
 
 ## Workstation Hardware
 ### Networking Software
+Network software is a term for software that is used for designing and implementing modern networks. There are six networking software programs that can be used for creating networks:
+
+#### Client Software
+A client is a piece of software that works within local and wide area networks. The term basically describes software that functions like an interface between a client’s computer and the server so it technically is located within the client’s PC. Basically, it can be anything that provides services, such as a word processor or a web browser, that makes use of services provided by the server and also provides an interface for the user to interact with these services.
+
+#### Server Software
+Server software is a piece of software designed for use in a server, providing power of a use of high end functions. It is used to interact with the infrastructure of the server to ensure maximum performance within the server. The type of usage may vary and the server may be used as a web, application, database, cloud or file server. The primary focus is clear however, which is to use computer resources and capacity.
+
+#### Client Operating System
+A client operating system is a computer that doesn’t require networks or external components to properly function and mainly works within the computer. It helps the user perform functions within the computer whenever used, such as browsing the internet. Operating systems must function with a distinct type of hardware. An example of a client operating system is Microsoft Windows, a common operating that comes within a desktop or laptop.
+
+#### Server Operating system
+A server operating system is an operating system designed for use on servers, built to serve the requests of client computers in a network. This server is opposite to that of a client operating system but also does function the same way, but the difference is that it enables server roles such as web, mail, file, database, application and print server. The Microsoft Windows Server line-up is a prime example of server operating software and has capabilities required within a client-server architecture.
+
+#### Firewall
+A firewall is software that enforces a set of rules that affect the traffic flow from within a network. They are incorporated into a variety of network devices to filter the traffic coming in and out of a firewall, but the main benefit is the security aspect of firewalls as they can prevent any malicious packets of data to flow into the network, mainly a public network. Two types can be used; host-based, which can be installed onto a server and network-based, typically built into the cloud infrastructure.
+
+#### Proxies
+A proxy server is a software system that runs on a computer, acting as midway between an endpoint device and another server that the client requests a service from. The proxy exists in the same machine as a firewall server, so that the requests can be forwarded through the firewall. Once a proxy server receives a request for an internet resource, which can be a web page, it runs through a cache of past pages and returns it to the user once found, without having to forward the request to the internet.
+
 ### Comparison of network and Cabling
+#### Network Comparison
+A network card is a device used to connect a computer to a computer network, by exchanging the data with the network and using a suitable protocol to achieve connection. Wireless networks are networks that don’t rely on cables but rather radio waves and can connect via Wi-Fi hotspots to establish a connection. Mobile or a cellular network is network distributed through cells where each cell has a fixed transceiver or base station. From describing them, each network has unique features, mainly in how they need to work and it requirements.
+
+A network card would be the only one of the networks described that requires a wired input to connect, requiring at least a connection port, such as coaxial or ethernet port, so in contrast with the other networks there is no form of wireless output for connecting to a network. In terms of the wireless networks, both use a wireless form, but a minor difference is that radio waves are used within the wireless network whereas mobile requires a dedicated control channel for transmitting digital information. Continuing with the mobile comparison, but in comparison to all three, mobile phones can only use the mobile network, as mobiles manipulate the frequencies for good connection to the network.
+
+#### Cabling Comparison
+Patch Cables are commonly ethernet cables used for linking a computer to a hub, switch or router, or even other devices to them. This type of cabling is used primarily for building home computer networks and those that need wired access when mobile, such as in hotels.
+Shielded Cables are ethernet cables but are composed of insulated conductors enclosed within a conductive layer, either being copper or aluminium.
+Twisted pair are copper wire used for connecting computers both home and business together. The copper wires are twisted around each other, so to prevent any crosstalk and electromagnetic induction between the wires.
+
+### Permissions
+
 ### Local Workstation Architecture
 #### System Bus
 
