@@ -115,22 +115,51 @@ Logical Topologies are concepts, defining the architecture of the communication 
 ## Operating Principles
 ### Networking devices
 #### Hubs
+Hubs are a common connection point for devices within a network and can either be wireless or wired. Hubs serve as a central connection for network equipment, sending off information and data across each connection. It sends the data individually and not at the same time, meaning slower transmitting speed.
+
 #### Routers
+Routers are electronic devices that join multiple computer networks, by receiving, analysing and moving incoming packets to another network. It can also determine the best route for packets of data to travel on. The data that it sends off runs through a number of network point with other routers before it gets to it destination.
+
 #### Switches
+A switch is a device that can receive incoming data packets and redirects them to their destination within a LAN. It creates an electronic tunnel that only uses the traffic that is requested, so during the data transmission, no other traffic can enter and that allows for communication without collisions.
+
 #### Multilayer Switch
+A multilayer switch is a device that can operate better and on higher levels than a traditional switch, performing the same functions but at a faster rate. Higher level functions were added that can allow the multilayer switch to look in the packets of data to aid in forwarding said data.
+
 #### Firewall
+A firewall in networking terms, is a software that enforces a set of rules for what traffic can enter or leave a network. This software is placed in a network to filter the amount of traffic and prevent any malicious data from travelling to private networks via the internet.
+
 #### HIDS
+Also known as a Host-Based Intrusion Detection System, is system used for overseeing a computer system in order to detect an intrusion. It analyses the traffic between the computer on which it is installed and reports any malicious packets that are entering or exiting the network.
+
 #### Repeaters
+A repeater is a device within a network used for regeneration or replication of signals that are weakened from any electromagnetic interference. It can relay messages between subnetworks using different protocols and cables, as well as can extend the LAN beyond its limits. Hubs can also be used as repeaters by relaying messages to computers connected within the same network.
+
 #### Bridges
-#### Wireless Devices
+A network bridge provides interconnection with other bridge networks that use the same protocol. They are mainly used in LANs because of their tendency to block up a large network because of their ability to transmit the data to all the nodes within the network should they not know the destination node’s address. It uses a database to determine where the data frame can pass, transmit or be discarded.
+
 #### Access Point
+An access point is a station that allows for the connection of wireless devices and wired networks to connect via a wireless standard. For instance, Wi-Fi or Bluetooth is used to connect to a tablet computer. It can provide connectivity to anyone in the network anywhere and remain connected to that network.
+
 #### Content Filter
+Content Filtering in a network uses a program to prevent and exclude any data that is considered spam or is deemed objectional. It’s mainly used for security purposes by preventing network users from connecting to malicious websites that have malware or used to commit fraud, by blocking the file uploads to the internet.
+
 #### Load Balancer
+A load balancer is software that can distribute incoming network traffic across ‘server pools’, which are backend servers. It maximizes speed and efficiency by routing the traffic requests across servers to ensure that none are overloaded. Once a new server is added, the balancer sends requests to it automatically.
+
 #### Modem
+A modem is a device used for transmission of data over a cable or telephone connection. The modem is so called because it modulates or demodulates analogue signal simultaneously to digital signal for a computer to recognize and vice versa for other devices.
+
 #### Packet Shaper
+Packet shaping or traffic shaping, regulates the data transfer to maintain a level of performance and quality. It delays the flow of packets that is considered as less important for more prioritized traffic, hence to allow for maintained performance within the network.
+
 #### VPN Concentrator
+A VPN concentrator is a network device that provides a secure connection and delivery of data between VPN nodes. It adds to the capabilities of a VPN, allowing for many people to access the VPN at the same time.
+
 ### Server types
 #### Web
+A web server delivers the users content or services over the internet. Once a request is sent to the web server, it fetches the relevant HTML page sending it to the web browser. Any computer can be used as a web server via server software and the internet as well as the services it provides such as software and commercial packages.
+
 #### File
 #### Database
 #### Combination
