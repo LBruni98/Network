@@ -111,6 +111,19 @@ Secure Sockets Layer, or SSL, is the standard in security technology for creatin
 ### Topologies
 Logical Topologies are concepts, defining the architecture of the communication of the nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. The topology is mainly defining how the signals act on the network media or how data passes through the network to the devices.
 
+Ethernet is based on a type of logical topology known as the bus topology, which is a common logical solution defines the physical topologies, laying out the logics of the data travelling to all devices from one device in a network.
+
+The physical topology refers to the actual structure of a LAN, utilising various networking cables to connect the physical devices on the network. It allows for organization of the network, by physically laying it out. It takes a lot of planning by determining the cable to be used and how they it runs through the building.
+
+Several types of physical topologies:
+
+* The star physical topology is a physical network that has the nodes connected to a centralized point, which can be a hub or switch.
+* A mesh network is much different, where the various parts can connect via multiple hops and can allow for rerouting on a different path if the current one is broken.
+* A bus topology is a lenient network, with the nodes all in a straight line and are terminated on both ends.
+* A ring network is where the nodes create a circular path, each device joined to two others and the data packets travel around these nodes until it reaches its destination.
+
+The main difference of physical and logical topologies is that logical is a visual representation of the network, showcasing how it could work, whereas the physical topology is actually physical; joined together with cables and switches.
+
 ### Communication
 
 ## Operating Principles
