@@ -194,12 +194,18 @@ A network card is a device used to connect a computer to a computer network, by 
 
 A network card would be the only one of the networks described that requires a wired input to connect, requiring at least a connection port, such as coaxial or ethernet port, so in contrast with the other networks there is no form of wireless output for connecting to a network. In terms of the wireless networks, both use a wireless form, but a minor difference is that radio waves are used within the wireless network whereas mobile requires a dedicated control channel for transmitting digital information. Continuing with the mobile comparison, but in comparison to all three, mobile phones can only use the mobile network, as mobiles manipulate the frequencies for good connection to the network.
 
-#### Cabling Comparison
-Patch Cables are commonly ethernet cables used for linking a computer to a hub, switch or router, or even other devices to them. This type of cabling is used primarily for building home computer networks and those that need wired access when mobile, such as in hotels.
-Shielded Cables are ethernet cables but are composed of insulated conductors enclosed within a conductive layer, either being copper or aluminium.
-Twisted pair are copper wire used for connecting computers both home and business together. The copper wires are twisted around each other, so to prevent any crosstalk and electromagnetic induction between the wires.
+#### Cabling Used
+Structured cabling is a system of cabling and hardware that provides a comprehensive communications infrastructure. It is mainly an organized approach to a cable network, where most elements of the network are done within the hardware, rather than using multiple cables. Network cables are hardware used for connecting one device to another and for transmitting information and data between computers, routers, switches and storage are networks. Network cables are mostly different between each other, mainly having different ports or cabling types. The common types of cabling are:
+* Patch Cables are commonly ethernet cables used for linking a computer to a hub, switch or router, or even other devices to them. This type of cabling is used primarily for building home computer networks and those that need wired access when mobile, such as in hotels.
+* Shielded Cables are ethernet cables but are composed of insulated conductors enclosed within a conductive layer, either being copper or aluminium.
+* Twisted pair are copper wire used for connecting computers both home and business together. The copper wires are twisted around each other, so to prevent any crosstalk and electromagnetic induction between the wires.
 
 ### Permissions
+Permissions are access details that are given by users or network administrators to define the rights to certain files on a network. An example of this would be a customer having access to a certain customer’s information that would otherwise be blocked by employees. There are two diverse types of permissions for sharing resources.
+
+NTFS permissions are used for determining access to files and folders and are features commonly seen in Microsoft Windows. They allow for users to read, write, edit and/or delete files when given the opportunity. There are more flexible options than the shared permissions, meaning that users can be assigned specific functions, making it more organized and ensuring that higher level access isn’t given to a huge number of users.
+
+Shared Permissions are permissions that are set for shared folders. These permissions determine the type of access that others can have to the folder across the network and apply to those who are joined within network, unlike NTFS permissions that aren’t other a network and only apply to certain users.
 
 ### Local Workstation Architecture
 #### System Bus
