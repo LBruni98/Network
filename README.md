@@ -89,7 +89,9 @@ IEEE 802.11 is a set of standards defining communication in wireless LANs, mainl
 ### Routed Protocols
 Routed Protocols is a protocol where data is routed from one network to another. These protocols use an addressing system that can address a particular network and host. There are different types of routed protocols, but the common being the IP address. The reason for IP being a more valued type of routed protocol is because of the fact that the rest is vanishing due to different issues.
 
-IPv4 has started running out of addresses due to the population of the world and the devices being manufactured, meaning that there is not enough IPv4 addresses. IPv6 is the newer solution where there is a considerable amount of addresses, with more than IPv4.
+IPv4 has started running out of addresses due to the population of the world and the devices being manufactured, meaning that there is not enough IPv4 addresses. IPv6 is the newer solution where there is a considerable amount of addresses, with more than IPv4. Global Unicast is a routable address that can used in the internet, associated with a single node and can identify that node. The problem with this protocol is mainly unicast flood, where the data packet that is supposed to be sent off to a single destination is sent to all hosts as a broadcast packet, making this protocol a potential security risk.
+
+Link local is a computer address that is only effective for communications within the link or the broadcast domain where the host is connected. They are not unique beyond a single link and routers can’t forward the packets that have a link-local address. A Unique Local Address, or ULA, is an address that is used in IPv6. They are not meant to have data routed outside of their province and not allocated at all by an address registry.
 
 ### Services and Network Applications
 #### FTP
@@ -125,6 +127,11 @@ Several types of physical topologies:
 The main difference of physical and logical topologies is that logical is a visual representation of the network, showcasing how it could work, whereas the physical topology is actually physical; joined together with cables and switches.
 
 ### Communication
+Communication is the transmission of data from either a computer or a device to another over a computer network, where said network is considered a telecommunications network that allows for the transmission of data. Essentially most common processes when browsing the internet has data transmission happening between the user and the server, such as retrieving a file from the internet or sending off an email, so with internet use, data is being communicated between servers, routers and other clients each time. However, to use the internet, the user would have to connect to the internet. A device is used to connect to a network, being a modem or router, which communicates with the internet; requesting permission to have the user join, to which data is sent back enabling the connection.
+
+Data is being communicated each time, but the data flow is also prone to attacks and malicious attempts to gain information from other users. Security measures such as firewalls within a network that can limit down the communications rate and to ensure that no malicious attacks can happen. With security measures, no malicious data can travel to unsuspecting users or end up within the network.
+
+Within a network model, the communication of data happens within layers. The TCP/IP has an applications layer that allows for services to be requested from the user to the application, meaning that data is ready to be sent, but namely focuses in the transport and internet layer, where the transport handles the communication between the hosts and for successful delivery and the internet layer sends the data across to the correct host. These layers aid the communication of data successfully by monitoring the data transfer and communicating with the right host.
 
 ## Operating Principles
 ### Networking devices
@@ -175,10 +182,19 @@ A VPN concentrator is a network device that provides a secure connection and del
 A web server delivers the users content or services over the internet. Once a request is sent to the web server, it fetches the relevant HTML page sending it to the web browser. Any computer can be used as a web server via server software and the internet as well as the services it provides such as software and commercial packages.
 
 #### File
+A file server is a computer that is responsible for the storage and management of data files so that computers on the network can access said files. This server allows the users to share information over the network without resorting to transfer them physically.
+
 #### Database
+A database server is either a hardware or software server used to run a database, mainly providing services related to access and retrieving files from the stored database. The access to the server can either be “front end” or “back end”, where the former can be running locally on a user’s machine or the latter, where its running in the server itself. Once the information in the database is retrieved, it is displayed to the user who requested it.
+
 #### Combination
-#### Virtualisation 
+A combination server is a server that combines the functions of a web, file and database server to make a server that can fulfil all the functions of those servers. This server provides all the services offered but as a singular server.
+
+#### Virtualisation
+A virtualized server is a server that was at once physical, but broken up into small virtual servers assisted by software. These servers provide web hosting, file or database services but is masked as individual servers so it cuts down on hardware from a physical server.
+
 #### Terminal Services
+A terminal server is a device or server that provides terminals, usually PCs but can be other devices, with a port to a Local or Wide Area Network. With a terminal server, client systems don’t have to connect using a modem or network interface.
 
 ## Workstation Hardware
 ### Networking Software
