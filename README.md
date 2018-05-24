@@ -109,7 +109,8 @@ Secure Sockets Layer, or SSL, is the standard in security technology for creatin
 
 ## The Impact of Networking Topology, Communication and Bandwidth
 ### Topologies
-Logical Topologies are concepts, defining the architecture of the communication of the nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. The topology is mainly defining how the signals act on the network media
+Logical Topologies are concepts, defining the architecture of the communication of the nodes in a network. The topology of a network can be dynamically maintained and reconfigured by routers and switches. The topology is mainly defining how the signals act on the network media or how data passes through the network to the devices.
+
 ### Communication
 
 ## Operating Principles
@@ -208,7 +209,13 @@ NTFS permissions are used for determining access to files and folders and are fe
 Shared Permissions are permissions that are set for shared folders. These permissions determine the type of access that others can have to the folder across the network and apply to those who are joined within network, unlike NTFS permissions that aren’t other a network and only apply to certain users.
 
 ### Local Workstation Architecture
+Workstation computers are specialized computers that can run tasks at a faster and more capable rate, as well as a networking workstation is a personal computer that is hooked up onto a local area network to share resources of one or more larger computers. These machines are connected to a LAN network. The reason for the workstation is good for CPU and RAM intensive programs is because of the fact of a faster processor and a considerable amount of RAM memory. Despite being a one user only, it can be remotely accessed by other users over the network. Different sorts of workstations have been designed to help with resources, such as a thin client, where the actions are performed on a server within the network.
+
 #### System Bus
+A system bus is a pathway that is made up of cables and connections, used for carrying data between the main memory and the computer microprocessor, essentially providing a communication pathway for the data between the major components of the computer system. It works by connecting CPU with the main memory and the level 2 cache. The internal bus carries the data within the motherboard, but some other buses branch out to provide a communication channel between the CPU and other components. The lines or pins of a bus are as followed:
+* Address – The components pass memory to each other over this bus.
+* Control – This is used to send signals for coordinating and managing the activities of motherboard components.
+* Data – This is transferred between peripherals, memory and the processor.
 
 ## Network Design
 ### Architecture
