@@ -93,6 +93,9 @@ IPv4 has started running out of addresses due to the population of the world and
 
 Link local is a computer address that is only effective for communications within the link or the broadcast domain where the host is connected. They are not unique beyond a single link and routers can’t forward the packets that have a link-local address. A Unique Local Address, or ULA, is an address that is used in IPv6. They are not meant to have data routed outside of their province and not allocated at all by an address registry.
 
+Extended Unique Identifier, also known as EUI, assigns itself a unique 64-Bit IPv6 interface identifier, eliminating the need to manually configure the IP or use DHCP in IPv4 addresses. The problem that arises from using this however, is that privacy loss would be potential concern, with the MAC address of the router being revealed.
+Auto-configuration is a feature in the IPv6 protocol that allows devices to use the internet without requiring any DHCP support, making it good for applications to require a secure connection without the DHCP server. The problem is that it doesn’t get the configuration needed to be functional on the network, so it needs a DHCPv6 server to get the rest of the configuration.
+
 ### Services and Network Applications
 #### FTP
 File Transfer Protocol, or FTP, is an internet protocol for transmitting files between computers over TCP/IP. It relies on two communication channels between client and the server and here a client can upload, download, delete or edit files on a server. The use however, would need to log on to the FTP server, but some servers can be accessed without having to login.
